@@ -1,0 +1,76 @@
+body {
+    background-image: url(https://cdn.discordapp.com/attachments/703420228742414346/728393797297242162/Captura_de_pantalla_50.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #f3ddff;
+    cursor: url(https://cdn.discordapp.com/emojis/411922255489138708.png?v=1), auto;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index:-1;
+}
+
+body .navbar-inverse {
+    background-color: rgba(79, 12, 176, 0.55);
+}
+#messagebuffer {
+    width: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: Bradley Hand, cursive;
+}
+
+.channel-emote
+{
+  max-width: 50px;
+  max-height: 50px;
+}
+
+.diosito {
+    font-family: impact;
+    font-weight: bold;
+    -webkit-animation:colorchange 1s infinite alternate ;
+    color: #313131;
+ }
+@-webkit-keyframes colorchange {
+      0% {color: blue;}
+      10% {color: #8e44ad;}
+      20% {color: #1abc9c;}
+      30% {color: #d35400;}
+      40% {color: blue;}
+      50% {color: #34495e;}
+      60% {color: blue;}
+      70% {color: #2980b9;}
+      80% {color: #f1c40f;}
+      90% {color: #2980b9;}
+      100% {color: pink;}
+    }
+
+#peliculas { 
+    display: none;
+}
+#anime { 
+    display: none;
+}
+#presentacion {
+    width:100%
+    //margin: auto;
+}
+#imgpres {
+    margin-left: auto;
+    margin-right: auto;
+}
+#bienvenida {
+    font-size: xx-large
+}
+#ytapiplayer {
+    //height: 100px;
+    //width: 720px;
+
+}
